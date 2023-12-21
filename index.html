@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>Semarang Wonderfull</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--<meta content="width=device-width, initial-scale=1.0" name="viewport">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="/img/logo-black-1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -29,18 +29,19 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
         .card-container {
             display: flex;
         }
-    
+
         .card-img-container {
             flex: 0 0 150px;
             margin-right: 20px;
         }
-    
+
         .card-img-container img {
             width: 100%;
             height: auto;
@@ -48,24 +49,29 @@
 
         .card-container {
             display: flex;
-            align-items: center; /* Untuk membuat konten berada di tengah secara vertikal */
+            align-items: center;
+            /* Untuk membuat konten berada di tengah secara vertikal */
         }
 
         .card-title {
-            margin-right: 10px; /* Jarak antara judul dan gambar */
+            margin-right: 10px;
+            /* Jarak antara judul dan gambar */
         }
 
         .card-img {
             margin-left: 10px;
-            max-width: 25px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+            max-width: 25px;
+            /* Sesuaikan lebar gambar sesuai kebutuhan */
             margin-bottom: 10px;
         }
+
     </style>
 </head>
 
-<body>
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
@@ -73,7 +79,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid me-3" src="/img/logo-black-1.png" alt="">
+        <!--<a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid me-3" src="/img/logo-black-1.png" alt="">-->
+        <a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid"
+                src="/img/logo-black-1.png" alt="">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -81,9 +89,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Akomodasi</a>
-                <a href="service.html" class="nav-item nav-link">Fasilitas</a>
-                <a href="service.html" class="nav-item nav-link">Promosi</a>
+                <a href="#" class="nav-item nav-link">Akomodasi</a>
+                <a href="#" class="nav-item nav-link">Fasilitas</a>
+                <a href="#" class="nav-item nav-link">Promosi</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
         </div>
@@ -97,41 +105,43 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/slide/smc.jpg" alt="Image">
+                    <img class="img-fluid" src="/img/slide/smc.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-lg-6">
-                                    <!-- <h1 class="display-3 text-dark mb-4 animated slideInDown">Insurance Creates Wealth For Everyone</h1>
-                                    <p class="fs-5 text-body mb-5">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p> -->
-                                    <!-- <a href="" class="btn btn-primary py-3 px-5">More Details</a> -->
+                                <div class="col-12 col-lg-6 mx-auto text-center" style="margin-top: 150px;">
+                                    <!--<h6 class="display-3 text-dark mb-4 animated slideInDown">The Best Insurance Begins Here</h6>-->
+                                    <p class="fs-5 text-white mb-5" style="font-size:100px;">Lelah bepergian di sekitar
+                                        kota Semarang, kami di sini untuk merekomendasikan akomodasi yang nyaman</p>
+                                    <a href="" class="btn btn-outline-light py-3 px-5">Lihat Lebih Lanjut</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/slide/kota-lama-1.png" alt="Image">
+                    <img class="img-fluid" src="/img/slide/kota-lama-1.png" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-lg-6">
-                                    <!-- <h1 class="display-3 text-dark mb-4 animated slideInDown">The Best Insurance Begins Here</h1>
-                                    <p class="fs-5 text-body mb-5">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p> -->
-                                    <!-- <a href="" class="btn btn-primary py-3 px-5">More Details</a> -->
+                                <div class="col-12 col-lg-6 mx-auto text-center" style="margin-top: 150px;">
+                                    <!--<h6 class="display-3 text-dark mb-4 animated slideInDown">The Best Insurance Begins Here</h6>-->
+                                    <p class="fs-5 text-white mb-5">Lelah bepergian di sekitar kota Semarang, kami di
+                                        sini untuk merekomendasikan akomodasi yang nyaman</p>
+                                    <a href="" class="btn btn-outline-light py-3 px-5">Lihat Lebih Lanjut</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -139,13 +149,155 @@
     </div>
     <!-- Carousel End -->
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
+
+    <!-- About Semarang -->
+    <div class="main-container-about wow fadeIn">
+        <div class="judul">
+            <h1 class="judul-about">About Semarang</h1>
+            <hr>
+            <h6 class="isi-1">Semarang was founded on May 2, 1547.</h6>
+            <span class="isi-2">semarang is the capital city of Central Java Province, Indonesia as well as the fifth
+                largest metropolitan city in
+                Indonesia after Jakarta, Surabaya, Medan and Bandung. As one of the most developed cities on the island
+                of Java.</span>
+        </div>
+        <div class="lembaga">
+            <div class="d-flex justify-content-evenly">
+                <img class="kotasemarang" src="/img/content/Lambang_Kota_Semarang2.png" alt="">
+            </div>
+            <div class="pd-flex justify-content-evenly">
+                <img class="pesona" src="/img/content/pesona_idn.png" alt="">
+            </div>
+            <div class="jd-flex justify-content-evenly">
+                <img class="jateng" src="/img/content/jateng.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About Semarang -->
+
+    <!-- Pic -->
+    <div class="main-container-2  wow fadeIn">
+        <div class="main-container-1">
+            <div class="main-container">
+                <h1 class="text-center" style="color: rgb(255, 255, 255); opacity:1; padding:10%">Semarang Wonderfull
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- end Pic -->
+
+     <div class="container-xl">
         <div class="container">
             <div class="row g-5">
                 <div class="col-xl wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="display-6 mb-5">Why Choose Our Hotel Recommendation System?</h1>
                     <p class="mb-4">Discover the perfect stay in Semarang with our advanced hotel recommendation system.</p>
+
+                    <div class="container mt-5 wow fadeInUp">
+                        <div class="card-container">
+                            <div class="card-img-container">
+                                <img src="/img/hotel/padma-hotel-1.png" class="img-fluid" alt="Gambar">
+                            </div>
+                            <div class="card-body">
+                                    <div class="card-container">
+                                        <h5 class="card-title">Judul Card</h5>
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <div style="position: relative; display: inline-block; margin-left:10px;">
+                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
+                                            <span
+                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
+                                        </div>
+
+                                    </div>
+                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+
+                                    <div class="row">
+
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+
+                                    </div>
+                                <p class="card-text">Deskripsi singkat.</p>
+
+                                <div class="text-right" style="text-align: right;">
+                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Opsi
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Aksi 1</a>
+                                            <a class="dropdown-item" href="#">Aksi 2</a>
+                                            <a class="dropdown-item" href="#">Aksi 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+    <!--2-->
+                    <div class="container mt-5 wow fadeInUp">
+                        <div class="card-container">
+                            <div class="card-img-container">
+                                <img src="/img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">
+                            </div>
+                            <div class="card-body">
+                                    <div class="card-container">
+                                        <h5 class="card-title">Judul Card</h5>
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <div style="position: relative; display: inline-block;margin-left:10px;">
+                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
+                                            <span
+                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
+                                        </div>
+
+                                    </div>
+                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+
+                                    <div class="row">
+
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+
+                                    </div>
+                                <p class="card-text">Deskripsi singkat.</p>
+
+                                <div class="text-right" style="text-align: right;">
+                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Opsi
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Aksi 1</a>
+                                            <a class="dropdown-item" href="#">Aksi 2</a>
+                                            <a class="dropdown-item" href="#">Aksi 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="container mt-5 wow fadeInUp">
                         <div class="card-container">
@@ -160,67 +312,28 @@
                                         <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
                                         <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
                                         <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <!-- <img src="/img/icon/rate-1.png" alt="" class="card-img" style="max-width: 50px; margin-left: 5rem">
-                                        <span>9.8</span> -->
-                                        <div style="position: relative; display: inline-block; margin-left:5rem">
+                                        <div style="position: relative; display: inline-block; margin-left:10px;">
                                             <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
                                             <span
                                                 style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
                                         </div>
-                                        
+
                                     </div>
                                 <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
-                               
-                                    <div class="row">
-                                       <!-- <div class="col-sm-4">
-                                            <div class="card border-dark" style="max-width: 12rem; margin-top:10px">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Parking a Lot</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="card border-dark" style="max-width: 12rem; margin-top:10px">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Free WifiS</h5>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="col-sm-4">
-                                            <div class="card border-dark" style="max-width: 12rem; margin-top:10px">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Free WifiS</h5>
-                                                </div>
-                                            </div>
-                                        </div> -->
+                                    <div class="row">
 
                                         <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
                                         <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
                                         <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
                                         <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
-                                        
-                                        <!-- Add more cards as needed -->
+
                                     </div>
                                 <p class="card-text">Deskripsi singkat.</p>
-                                <!-- <div class="text-right">
-                                    <h5 class="card-title" style="text-align: right;">Rp. 1.000.000</h5>
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Opsi
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Aksi 1</a>
-                                            <a class="dropdown-item" href="#">Aksi 2</a>
-                                            <a class="dropdown-item" href="#">Aksi 3</a>
-                                        </div>
-                                    </div>
-                                </div> -->
 
                                 <div class="text-right" style="text-align: right;">
-                                    <h5 class="card-title">Rp. 1.000.000</h5>
-                                
+                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+
                                     <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -233,14 +346,66 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container mt-5 wow fadeInUp">
+                        <div class="card-container">
+                            <div class="card-img-container">
+                                <img src="/img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">
+                            </div>
+                            <div class="card-body">
+                                    <div class="card-container">
+                                        <h5 class="card-title">Judul Card</h5>
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
+                                        <div style="position: relative; display: inline-block; margin-left:10px;">
+                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
+                                            <span
+                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
+                                        </div>
+
+                                    </div>
+                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+
+                                    <div class="row">
+
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
+                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+
+                                    </div>
+                                <p class="card-text">Deskripsi singkat.</p>
+
+                                <div class="text-right" style="text-align: right;">
+                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Opsi
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Aksi 1</a>
+                                            <a class="dropdown-item" href="#">Aksi 2</a>
+                                            <a class="dropdown-item" href="#">Aksi 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- Features End -->
 
     <!-- Footer Start -->
@@ -270,10 +435,6 @@
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a href="#">Wonderfull Semarang</a>, All Right Reserved.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://asrporto.com">ASR Porto</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -293,8 +454,6 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-
-    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

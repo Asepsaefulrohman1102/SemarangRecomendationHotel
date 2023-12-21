@@ -145,6 +145,7 @@
 }
 
 
+
 /*** Header ***/
 .carousel-caption {
     top: 0;
@@ -176,7 +177,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -189,7 +190,7 @@
 }
 
 .page-header {
-    background: url(../img/slide/smc.jpg) center center no-repeat;
+    background: url(/img/slide/smc.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -207,6 +208,112 @@
 .page-header .breadcrumb-item.active {
     color: var(--primary);
 }
+
+/* About Semarang */
+.main-container-about {
+    position: relative;
+    min-width: none;
+    min-height: 250px;
+    height: 60%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.judul {
+    text-align: center;
+}
+
+.judul .judul-about {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+
+.judul hr {
+    border: none;
+    border-top: 8px solid rgb(255, 5, 5);
+    /* Ubah 'black' sesuai dengan warna yang Anda inginkan */
+    width: 20%;
+    /* Sesuaikan lebar dengan preferensi Anda */
+    margin: 0 auto;
+    /* Mengatur margin secara otomatis di sekitar elemen horisontal */
+    border-radius: 10px;
+}
+
+.judul .isi-1 {
+    font-size: 20px;
+    font-family: 'semi-bold';
+    color: #A9A9A9;
+    text-align: center;
+    margin: 2%;
+}
+
+.judul .isi-2 {
+    font-size: 20px;
+    font-family: 'semi-bold';
+    color: #000000;
+    text-align: center;
+    margin: 2%;
+}
+
+.lembaga {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.lembaga .kotasemarang,
+.lembaga .jateng {
+    padding: 10px;
+    margin: 2%;
+    max-width: 120px;
+    height: auto;
+}
+
+.lembaga .pesona {
+    padding: 10px;
+    margin: 2%;
+    max-width: 250px;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .lembaga {
+        flex-wrap: nowrap;
+    }
+
+    .lembaga .gambar {
+        flex: 0 0 auto;
+        max-width: none;
+    }
+}
+
+/* Layar blur */
+
+.main-container-1,
+.main-container-1 * {
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+    background-image: url(/img/hotel/pantai_marina.jpeg);
+    opacity: 30%;
+}
+
+.main-container {
+    position: relative;
+    min-width: none;
+    min-height: 250px;
+    height: 60%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+/* end layar blur end */
 
 /*** Footer ***/
 .footer {
