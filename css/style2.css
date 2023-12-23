@@ -1,8 +1,9 @@
+/********** Template CSS **********/
 :root {
     --primary: #015FC9;
     --secondary: #0DD3F1;
     --light: #F6F7FC;
-    --dark: #FFFFFF;
+    --dark: #15233C;
 }
 
 .back-to-top {
@@ -109,7 +110,7 @@
     margin-left: 8px;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 991.98px) {
     .navbar .navbar-brand img {
         max-height: 45px;
     }
@@ -124,7 +125,7 @@
     }
 }
 
-@media (min-width: 250px) {
+@media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -145,7 +146,6 @@
 }
 
 
-
 /*** Header ***/
 .carousel-caption {
     top: 0;
@@ -160,7 +160,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 10%;
+    width: 15%;
 }
 
 .carousel-control-prev-icon,
@@ -172,7 +172,7 @@
     border-radius: 50px;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
@@ -183,14 +183,11 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 10%;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }
 
 .page-header {
-    background: url(../img/slide/smc.jpg) center center no-repeat;
+    background: url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -209,96 +206,16 @@
     color: var(--primary);
 }
 
-/* About Semarang */
-.main-container-about {
-    position: relative;
-    min-width: none;
-    min-height: 250px;
-    height: 60%;
-    margin: 0 auto;
-    background-size: cover;
-}
-
-.judul {
-    text-align: center;
-}
-
-.judul .judul-about {
+.text-akomodasi {
+    color: #000000;
+    font-family: Montserrat;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
 }
 
-.judul hr {
-    border: none;
-    border-top: 8px solid rgb(255, 5, 5);
-    /* Ubah 'black' sesuai dengan warna yang Anda inginkan */
-    width: 20%;
-    /* Sesuaikan lebar dengan preferensi Anda */
-    margin: 0 auto;
-    /* Mengatur margin secara otomatis di sekitar elemen horisontal */
-    border-radius: 10px;
-}
-
-.judul .isi-1 {
-    font-size: 20px;
-    font-family: 'semi-bold';
-    color: #A9A9A9;
-    text-align: center;
-    margin: 2%;
-}
-
-.judul .isi-2 {
-    font-size: 20px;
-    font-family: 'semi-bold';
-    color: #000000;
-    text-align: center;
-    margin: 2%;
-}
-
-.lembaga {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px;
-}
-
-.lembaga .kotasemarang,
-.lembaga .jateng {
-    padding: 20px;
-    margin: 2%;
-    max-width: 120px;
-    height: auto;
-}
-
-.lembaga .pesona {
-    padding: 20px;
-    margin: 2%;
-    max-width: 250px;
-    height: 100px;
-}
-
-@media (min-width: 768px) {
-    .lembaga {
-        flex-wrap: nowrap;
-        flex: 0 0 auto;
-        max-width: none;
-    }
-}
-
-/* Layar blur */
-
-.main-container,
-.main-container * {
-    background-image: url(/img/hotel/pantai_marina.jpeg);
-    position: relative;
-    min-width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-size: cover;
-}
-
-/* end layar blur end */
 
 /*** Footer ***/
 .footer {

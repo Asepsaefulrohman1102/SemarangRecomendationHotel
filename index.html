@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="/img/logo-black-1.png" rel="icon">
+    <link href="img/favicon.icon" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,10 +27,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
         .card-container {
@@ -68,7 +67,7 @@
     </style>
 </head>
 
-<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+<body>
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -79,9 +78,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-        <!--<a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid me-3" src="/img/logo-black-1.png" alt="">-->
+        <!--<a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid me-3" src="img/logo-black-1.png" alt="">-->
         <a href="index.html" class="navbar-brand d-flex align-items-center"><img class="img-fluid"
-                src="/img/logo-black-1.png" alt="">
+                src="img/logo-black-1.png" alt="">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -89,9 +88,8 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">Akomodasi</a>
-                <a href="#" class="nav-item nav-link">Fasilitas</a>
-                <a href="#" class="nav-item nav-link">Promosi</a>
+                <a href="akomodasi.php" class="nav-item nav-link">Akomodasi</a>
+                <a href="promosi.php" class="nav-item nav-link">Promosi</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
         </div>
@@ -105,7 +103,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="/img/slide/smc.jpg" alt="Image">
+                    <img class="img-fluid" src="img/slide/smc.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -120,7 +118,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="/img/slide/kota-lama-1.png" alt="Image">
+                    <img class="img-fluid" src="img/slide/kota-lama-1.png" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -134,8 +132,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -159,24 +155,25 @@
             <span class="isi-2">semarang is the capital city of Central Java Province, Indonesia as well as the fifth
                 largest metropolitan city in
                 Indonesia after Jakarta, Surabaya, Medan and Bandung. As one of the most developed cities on the island
-                of Java.</span>
+                of Java.
+            </span>
         </div>
         <div class="lembaga">
             <div class="d-flex justify-content-evenly">
-                <img class="kotasemarang" src="/img/content/Lambang_Kota_Semarang2.png" alt="">
+                <img class="kotasemarang" src="img/content/Lambang_Kota_Semarang2.png" alt="">
             </div>
             <div class="pd-flex justify-content-evenly">
-                <img class="pesona" src="/img/content/pesona_idn.png" alt="">
+                <img class="pesona" src="img/content/pesona_idn.png" alt="">
             </div>
             <div class="jd-flex justify-content-evenly">
-                <img class="jateng" src="/img/content/jateng.png" alt="">
+                <img class="jateng" src="img/content/jateng.png" alt="">
             </div>
         </div>
     </div>
     <!-- End About Semarang -->
 
-    <!-- Pic -->
-    <div class="main-container-2  wow fadeIn">
+    <!-- layar blur -->
+    <div class="main-container-2 wow fadeIn">
         <div class="main-container-1">
             <div class="main-container">
                 <h1 class="text-center" style="color: rgb(255, 255, 255); opacity:1; padding:10%">Semarang Wonderfull
@@ -185,227 +182,227 @@
         </div>
     </div>
 
-    <!-- end Pic -->
+    <!-- end layar blur -->
 
-     <div class="container-xl">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-xl wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-5">Why Choose Our Hotel Recommendation System?</h1>
-                    <p class="mb-4">Discover the perfect stay in Semarang with our advanced hotel recommendation system.</p>
+    <!-- <div class="container-xl">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row g-5"> -->
+    <!--            <div class="col-xl wow fadeInUp" data-wow-delay="0.1s">-->
+    <!--                <h1 class="display-6 mb-5">Why Choose Our Hotel Recommendation System?</h1>-->
+    <!--                <p class="mb-4">Discover the perfect stay in Semarang with our advanced hotel recommendation system.</p>-->
 
-                    <div class="container mt-5 wow fadeInUp">
-                        <div class="card-container">
-                            <div class="card-img-container">
-                                <img src="/img/hotel/padma-hotel-1.png" class="img-fluid" alt="Gambar">
-                            </div>
-                            <div class="card-body">
-                                    <div class="card-container">
-                                        <h5 class="card-title">Judul Card</h5>
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <div style="position: relative; display: inline-block; margin-left:10px;">
-                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
-                                            <span
-                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
-                                        </div>
+    <!--                <div class="container mt-5 wow fadeInUp">-->
+    <!--                    <div class="card-container">-->
+    <!--                        <div class="card-img-container">-->
+    <!--                            <img src="img/hotel/padma-hotel-1.png" class="img-fluid" alt="Gambar">-->
+    <!--                        </div>-->
+    <!--                        <div class="card-body">-->
+    <!--                                <div class="card-container">-->
+    <!--                                    <h5 class="card-title">Judul Card</h5>-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <div style="position: relative; display: inline-block; margin-left:10px;">-->
+    <!--                                        <img loading="lazy" src="img/icon/rate-1.png" style="height:50px"/>-->
+    <!--                                        <span-->
+    <!--                                            style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>-->
+    <!--                                    </div>-->
 
-                                    </div>
-                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+    <!--                                </div>-->
+    <!--                            <img src="img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>-->
 
-                                    <div class="row">
+    <!--                                <div class="row">-->
 
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>-->
 
-                                    </div>
-                                <p class="card-text">Deskripsi singkat.</p>
+    <!--                                </div>-->
+    <!--                            <p class="card-text">Deskripsi singkat.</p>-->
 
-                                <div class="text-right" style="text-align: right;">
-                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+    <!--                            <div class="text-right" style="text-align: right;">-->
+    <!--                                <h5 class="card-title">Rp. Harga disini ya</h5>-->
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Opsi
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Aksi 1</a>
-                                            <a class="dropdown-item" href="#">Aksi 2</a>
-                                            <a class="dropdown-item" href="#">Aksi 3</a>
-                                        </div>
-                                    </div>
-                                </div>
+    <!--                                <div class="dropdown">-->
+    <!--                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"-->
+    <!--                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <!--                                        Opsi-->
+    <!--                                    </button>-->
+    <!--                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 1</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 2</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 3</a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
 
-                            </div>
-                        </div>
-                    </div>
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
     <!--2-->
-                    <div class="container mt-5 wow fadeInUp">
-                        <div class="card-container">
-                            <div class="card-img-container">
-                                <img src="/img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">
-                            </div>
-                            <div class="card-body">
-                                    <div class="card-container">
-                                        <h5 class="card-title">Judul Card</h5>
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <div style="position: relative; display: inline-block;margin-left:10px;">
-                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
-                                            <span
-                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
-                                        </div>
+    <!--                <div class="container mt-5 wow fadeInUp">-->
+    <!--                    <div class="card-container">-->
+    <!--                        <div class="card-img-container">-->
+    <!--                            <img src="img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">-->
+    <!--                        </div>-->
+    <!--                        <div class="card-body">-->
+    <!--                                <div class="card-container">-->
+    <!--                                    <h5 class="card-title">Judul Card</h5>-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <div style="position: relative; display: inline-block;margin-left:10px;">-->
+    <!--                                        <img loading="lazy" src="img/icon/rate-1.png" style="height:50px"/>-->
+    <!--                                        <span-->
+    <!--                                            style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>-->
+    <!--                                    </div>-->
 
-                                    </div>
-                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+    <!--                                </div>-->
+    <!--                            <img src="img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>-->
 
-                                    <div class="row">
+    <!--                                <div class="row">-->
 
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>-->
 
-                                    </div>
-                                <p class="card-text">Deskripsi singkat.</p>
+    <!--                                </div>-->
+    <!--                            <p class="card-text">Deskripsi singkat.</p>-->
 
-                                <div class="text-right" style="text-align: right;">
-                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+    <!--                            <div class="text-right" style="text-align: right;">-->
+    <!--                                <h5 class="card-title">Rp. Harga disini ya</h5>-->
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Opsi
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Aksi 1</a>
-                                            <a class="dropdown-item" href="#">Aksi 2</a>
-                                            <a class="dropdown-item" href="#">Aksi 3</a>
-                                        </div>
-                                    </div>
-                                </div>
+    <!--                                <div class="dropdown">-->
+    <!--                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"-->
+    <!--                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <!--                                        Opsi-->
+    <!--                                    </button>-->
+    <!--                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 1</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 2</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 3</a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
 
-                            </div>
-                        </div>
-                    </div>
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-                    <div class="container mt-5 wow fadeInUp">
-                        <div class="card-container">
-                            <div class="card-img-container">
-                                <img src="/img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">
-                            </div>
-                            <div class="card-body">
-                                    <div class="card-container">
-                                        <h5 class="card-title">Judul Card</h5>
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <div style="position: relative; display: inline-block; margin-left:10px;">
-                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
-                                            <span
-                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
-                                        </div>
+    <!--                <div class="container mt-5 wow fadeInUp">-->
+    <!--                    <div class="card-container">-->
+    <!--                        <div class="card-img-container">-->
+    <!--                            <img src="img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">-->
+    <!--                        </div>-->
+    <!--                        <div class="card-body">-->
+    <!--                                <div class="card-container">-->
+    <!--                                    <h5 class="card-title">Judul Card</h5>-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <div style="position: relative; display: inline-block; margin-left:10px;">-->
+    <!--                                        <img loading="lazy" src="img/icon/rate-1.png" style="height:50px"/>-->
+    <!--                                        <span-->
+    <!--                                            style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>-->
+    <!--                                    </div>-->
 
-                                    </div>
-                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+    <!--                                </div>-->
+    <!--                            <img src="img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>-->
 
-                                    <div class="row">
+    <!--                                <div class="row">-->
 
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>-->
 
-                                    </div>
-                                <p class="card-text">Deskripsi singkat.</p>
+    <!--                                </div>-->
+    <!--                            <p class="card-text">Deskripsi singkat.</p>-->
 
-                                <div class="text-right" style="text-align: right;">
-                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+    <!--                            <div class="text-right" style="text-align: right;">-->
+    <!--                                <h5 class="card-title">Rp. Harga disini ya</h5>-->
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Opsi
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Aksi 1</a>
-                                            <a class="dropdown-item" href="#">Aksi 2</a>
-                                            <a class="dropdown-item" href="#">Aksi 3</a>
-                                        </div>
-                                    </div>
-                                </div>
+    <!--                                <div class="dropdown">-->
+    <!--                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"-->
+    <!--                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <!--                                        Opsi-->
+    <!--                                    </button>-->
+    <!--                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 1</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 2</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 3</a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
 
-                            </div>
-                        </div>
-                    </div>
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
 
-                    <div class="container mt-5 wow fadeInUp">
-                        <div class="card-container">
-                            <div class="card-img-container">
-                                <img src="/img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">
-                            </div>
-                            <div class="card-body">
-                                    <div class="card-container">
-                                        <h5 class="card-title">Judul Card</h5>
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <img src="/img/icon/iconly-bold-star.svg" alt="" class="card-img">
-                                        <div style="position: relative; display: inline-block; margin-left:10px;">
-                                            <img loading="lazy" src="/img/icon/rate-1.png" style="height:50px"/>
-                                            <span
-                                                style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>
-                                        </div>
+    <!--                <div class="container mt-5 wow fadeInUp">-->
+    <!--                    <div class="card-container">-->
+    <!--                        <div class="card-img-container">-->
+    <!--                            <img src="img/hotel/padma-hotel-1.png" class="card-img-top" alt="Gambar">-->
+    <!--                        </div>-->
+    <!--                        <div class="card-body">-->
+    <!--                                <div class="card-container">-->
+    <!--                                    <h5 class="card-title">Judul Card</h5>-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <img src="img/icon/iconly-bold-star.svg" alt="" class="card-img">-->
+    <!--                                    <div style="position: relative; display: inline-block; margin-left:10px;">-->
+    <!--                                        <img loading="lazy" src="img/icon/rate-1.png" style="height:50px"/>-->
+    <!--                                        <span-->
+    <!--                                            style="position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); font-size: 20px; color: rgb(0, 0, 0); font-weight: bold;">9.8</span>-->
+    <!--                                    </div>-->
 
-                                    </div>
-                                <img src="/img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>
+    <!--                                </div>-->
+    <!--                            <img src="img/icon/iconly-bold-location.svg" alt=""><span class="card-text" style="color: #00A3FF; font-family:Poppins; margin-left: 5px;">Ini diisi alamat.</span>-->
 
-                                    <div class="row">
+    <!--                                <div class="row">-->
 
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>
-                                        <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-1" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-2" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-3" style="width: max-content; margin:10px; padding: 5px; text-align: center;">Parking a Lot</h5>-->
+    <!--                                    <h5 class="border border-dark border-1 rounded-2 col-sm-2 text-dark order-4" style="width: max-content; margin:10px; padding: 5px; text-align: center;">+3</h5>-->
 
-                                    </div>
-                                <p class="card-text">Deskripsi singkat.</p>
+    <!--                                </div>-->
+    <!--                            <p class="card-text">Deskripsi singkat.</p>-->
 
-                                <div class="text-right" style="text-align: right;">
-                                    <h5 class="card-title">Rp. Harga disini ya</h5>
+    <!--                            <div class="text-right" style="text-align: right;">-->
+    <!--                                <h5 class="card-title">Rp. Harga disini ya</h5>-->
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Opsi
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Aksi 1</a>
-                                            <a class="dropdown-item" href="#">Aksi 2</a>
-                                            <a class="dropdown-item" href="#">Aksi 3</a>
-                                        </div>
-                                    </div>
-                                </div>
+    <!--                                <div class="dropdown">-->
+    <!--                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"-->
+    <!--                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <!--                                        Opsi-->
+    <!--                                    </button>-->
+    <!--                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 1</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 2</a>-->
+    <!--                                        <a class="dropdown-item" href="#">Aksi 3</a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
     <!-- Features End -->
 
     <!-- Footer Start -->
@@ -422,17 +419,24 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Alamat</h5>
+                    <h5 class="text-light mb-4">Info</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>Jl Imam Bonjol</p>
                     <p><i class="fa fa-phone-alt me-3"></i>+62 1234567890</p>
                     <p><i class="fa fa-envelope me-3"></i>semarangid@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Sitemap</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2330464176193!2d110.40663071052633!3d-6.981803118340982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ec52229d7%3A0xc791d6abc9236c7!2sUniversitas%20Dian%20Nuswantoro!5e0!3m2!1sid!2sid!4v1703303986010!5m2!1sid!2sid"
+                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
         <div class="container-fluid copyright">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
                         &copy; <a href="#">Wonderfull Semarang</a>, All Right Reserved.
                     </div>
                 </div>
